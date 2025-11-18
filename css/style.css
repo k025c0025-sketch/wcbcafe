@@ -5,6 +5,14 @@
 html{
     font-size: 100%;
 }
+head{
+    .philosopher-regular-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+}
 body{
     font-family: "Hiragino Kaku Gothic ProN","Hiragino Sans","BIZ UDPGothic",sana-serif;
     line-height: 1,7;
