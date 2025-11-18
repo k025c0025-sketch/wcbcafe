@@ -5,14 +5,7 @@
 html{
     font-size: 100%;
 }
-head{
-    .philosopher-regular-italic {
-  font-family: "Philosopher", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
-}
 body{
     font-family: "Hiragino Kaku Gothic ProN","Hiragino Sans","BIZ UDPGothic",sana-serif;
     line-height: 1,7;
@@ -23,4 +16,22 @@ a{
 }
 img{
     max-width: 100%;
+}
+/*レイアウト*/
+.align-center{
+    text-align: center;
+}
+
+/*見出し*/
+.font-english{
+    font-family: 'Phlosopher',sans-serif;
+    font-weight: normal;
+}
+/*　ヘッダー
+-------------------------*/
+.page-header{
+    padding-top: 5rem;
+}
+.logo{
+    width: 210px;
 }
