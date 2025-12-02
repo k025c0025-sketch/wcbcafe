@@ -169,7 +169,21 @@ img{
 
     /*NEWS*/
     .cover-news{
-        background-image: url(../images/cover-news-l.webp)
+        background-image: url(../images/cover-news-l.webp);
+    }
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        width: 70%;
+    }
+    .sidebar{
+        width: 22%;
+    }
+    .sidebar .heading-medium{
+        line-height: 1;
+        margin-bottom 1rem;
     }
 
     /*フッター*/
@@ -211,7 +225,7 @@ img{
 /*NEWS
 -------------------------------------------------*/
 .cover-news{
-    background-image: url(../images/cover-home-s.webp);
+    background-image: url(../images/cover-news-s.webp);
 }
 /*記事部分*/
 .post{
